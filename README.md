@@ -2,11 +2,10 @@
 The project aims to implement an efficient indexing approach for spatiotemporal datasets, specifically using the methodology described in the paper "Indexing Moving Object Trajectories With Hilbert Curves." The implementation will focus on processing a Twitter dataset within the Apache Sedona framework, comparing traditional spatial indexing methods with Hilbert curve-based transformations. This project demonstrates how to leverage Apache Spark and Sedona (formerly GeoSpark) for geospatial data processing. It provides a comprehensive setup guide, detailed instructions, and code examples using Jupyter Notebooks. Designed for users interested in geospatial analytics and scalable big data processing.
 
 # Features
-1. Integration with Java: Set up the Java Virtual Machine (JVM) required for Apache Spark and Sedona.
-2. Apache Sedona: Perform advanced geospatial operations.
-3. Big Data Processing: Utilize Apache Spark for distributed computation on large datasets.
-4. Notebook-based Workflow: Execute all tasks seamlessly in a Jupyter Notebook.
-5. Scalable Analytics: Implement efficient geospatial workflows for massive datasets.
+1. Installation of Apache Sedona: Successfully downloaded and installed Apache Sedona, a cluster computing system for large-scale spatial data processing.
+2. Data Preparation: Read the Twitter dataset and prepare it for processing.
+3. Spatial Partitioning and Indexing: Implemented spatial partitioning of the dataset across worker nodes and build an R-Tree index for efficient querying.
+3. Range Query Execution: Performed range queries with time filters to identify tweets within specified spatial and temporal bounds, reporting the running time of these queries.
 
 # Setup
 - To set up the project, follow these steps: Java
