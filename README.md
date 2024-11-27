@@ -9,23 +9,22 @@ This project demonstrates how to leverage Apache Spark and Sedona (formerly GeoS
 5. Scalable Analytics: Implement efficient geospatial workflows for massive datasets.
 
 # Setup
-## To set up the project, follow these steps:
+- To set up the project, follow these steps:
 
 Install Java
-## Download and install the Java Development Kit (JDK). Ensure it is added to your system's PATH.
+- Download and install the Java Development Kit (JDK). Ensure it is added to your system's PATH.
 
 ## Install Apache Spark
-## Download and configure Apache Spark. Verify compatibility with your JVM version.
+- Download and configure Apache Spark. Verify compatibility with your JVM version.
 
 ## Install Sedona
-## Add Apache Sedona dependencies to your Spark environment. These can be configured via the spark-submit command or environment settings.
+- Add Apache Sedona dependencies to your Spark environment. These can be configured via the spark-submit command or environment settings.
 
 ## Install Python Dependencies
-## Use pip to install required Python libraries:
-
-## pip install pyspark sedona-python-adapter
-## Run the Notebook
-## Open the provided Jupyter Notebook and execute the cells in order.
+- Use pip to install required Python libraries:
+- pip install pyspark sedona-python-adapter
+- Run the Notebook
+- Open the provided Jupyter Notebook and execute the cells in order.
 
 # Usage
 This project covers:
