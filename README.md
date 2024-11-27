@@ -40,7 +40,7 @@ The project will culminate in a comprehensive analysis of the effectiveness of H
 3. Logistics and Routing: Optimize routes and logistics with spatial data queries.
    
 # Contributions
-Contributions are welcome! To contribute:
+Contributions are welcome!
 
 # Fork the repository.
 Create a new branch for your feature or bug fix.
